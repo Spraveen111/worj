@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.contactContainer{
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.one{
+    padding-right: 20px;
+}
+
+.centered-box{
+    text-align: center;
+}

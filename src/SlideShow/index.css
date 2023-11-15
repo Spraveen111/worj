@@ -1,0 +1,31 @@
+SlideShow.css .slide-show-container {
+    /* position: relative; */
+    width: 100vw;
+    /* margin: auto; */
+    height: 100px;
+  }
+  
+  img {
+    width: 100%;
+    /* height: auto; */
+  }
+  
+  .arrow-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 50px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    outline: none;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }

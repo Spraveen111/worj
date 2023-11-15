@@ -1,0 +1,21 @@
+.mainFirstContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    width: 70vw;
+}
+.imageCart{
+    height: 200px;
+    width: 300px;
+}
+.payment-box{
+    text-align: center;
+    padding-top: 40px;
+}

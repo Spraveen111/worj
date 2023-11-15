@@ -1,0 +1,34 @@
+.productcard {
+    height: 350px;
+    width: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  .productCardImage {
+    height: 180px;
+    width: 200px;
+  }
+  .title {
+    font-size: 20px;
+    color: #212529;
+    font-weight: 500;
+  }
+  .price {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .button {
+    padding: 7px;
+    background-color: white;
+    margin-left: 10px;
+    border: solid 1px;
+  }
