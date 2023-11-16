@@ -1,0 +1,36 @@
+.mainContainer{
+    background-color: #e7e7e7;
+  width: 100vw;
+  height: 100vh;
+}
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+    width: 60vw;
+    margin-bottom: 300px;
+}
+.i{
+    height: 200px;
+    width: 300px;
+    padding :20px;
+}
+.button1{
+    background-color:red;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.des{
+    font-size: 12px;
+    width: 460px;
+}
+.or{
+    font-weight: 100;
+    font-size: 10px;
+}

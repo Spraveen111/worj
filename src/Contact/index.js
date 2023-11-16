@@ -46,7 +46,7 @@ function Contact() {
 
         <div class="container">
           <h1 className="ebuy">USEFUL LINKS</h1>
-          <ul>
+          <ul className="u">
             <li>Pricing</li>
             <li>Settings</li>
             <li>Orders</li>

@@ -6,7 +6,7 @@ import Products from './Products';
 import Contact from './Contact';
 import SignIn from './SignIn';
 import Cart from './Cart';
-
+import Card from './Card';
 const App = () => (
   <div>
     <BrowserRouter>
@@ -18,6 +18,7 @@ const App = () => (
   <Route exact path='/sign' component={SignIn} />
 
   <Route exact path='/cart' component={Cart} />
+  <Route exact  path='/card/:id' component={Card}/>
 </Switch>
 
     </BrowserRouter>

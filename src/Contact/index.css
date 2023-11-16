@@ -11,6 +11,7 @@ body {
 .contactContainer{
     display: flex;
     justify-content: space-between;
+    margin: 40px;
     
 
 }
@@ -20,4 +21,11 @@ body {
 
 .centered-box{
     text-align: center;
+}
+.ebuy{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.u{
+    list-style-type: none;
 }

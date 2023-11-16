@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 import ProductCard from "../ProductCard";
 import SlideShow from "../SlideShow";
 
-import Header from "../Header";
+//import Header from "../Header";
 // import Contact from '../Contact'
 
 function Home() {

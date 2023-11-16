@@ -1,4 +1,4 @@
-
+import {Link} from 'react-router-dom'
 import "./index.css";
 
 
@@ -12,7 +12,7 @@ const ProductCard = (props) => {
       <h1 className="title">{title}</h1>
       <h1 className="price">${price}</h1>
       <div>
-  <button type='button'> <a href={`/card/${valueToSend}`}>View</a></button>
+  <button type='button'> <Link to={`/card/${id}`} d={valueToSend}>View</Link></button>
      
 
         <button type="button" className="button">
